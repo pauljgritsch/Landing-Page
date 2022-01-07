@@ -1,0 +1,167 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    /* border: 3px solid red; */
+}
+
+/* Header CSS */
+.head {
+    justify-content: space-between;
+    font-size: 24px;
+    color: #e5e7eb;
+    padding: 15px 30px;
+    background-color: #1f2937;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;    
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* Hero Section CSS */
+.sec1{
+    background-color: #1f2937;
+    color: #f9faf8;
+
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 4em;
+}
+
+.sec1left {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    gap: 15px;
+}
+
+.awesome {
+    font-size: 48px;
+}
+
+#heroimg {
+    max-width: 600px;
+    height: auto;
+    flex: 0 1 auto;
+}
+
+/* Info Section CSS */
+.sec2 {
+    text-align: center;
+    margin: 50px;
+}
+
+#sec2text {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    /* border: 2px solid blue; */
+}
+
+.info{
+    width: 200px;
+    max-width: 200px;
+}
+
+.info img {
+    width: 200px;
+}
+
+/* Quote Section CSS */
+.sec3 {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    }
+
+.sec3text {
+    max-width: 700px;
+    padding: 30px 0;
+    font-style: italic;
+}
+
+#quoter {
+    text-align: end;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Call to Action CSS */
+.sec4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.sec4container {
+    background-color: #3882F6;
+    border-radius: 7px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #f9faf8;
+    width: 60em;
+    height: 7em;
+}
+
+.calltoaction {
+    display: flex;
+    flex-direction: column;
+}
+
+#calltitle {
+    font-weight: bold;
+}
+
+
+
+/* Footer CSS */
+.foot {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    padding: 2em;
+    text-decoration: line-through;
+}
+
+/* Misc CSS */
+.signup {
+    border-radius: 7px;
+    background-color: #3882F6;
+    width: 150px;
+    padding: 10px;
+    color: #f9faf8;
+}
+
+#button2 {
+    border: 1px solid white;
+}
+
+* {
+    /* border: 2px solid red; */
+    padding: 0;
+    margin: 0;
+}
