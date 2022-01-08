@@ -9,7 +9,7 @@ body {
     justify-content: space-between;
     font-size: 24px;
     color: #e5e7eb;
-    padding: 15px 30px;
+    padding: 20px 30px;
     background-color: #1f2937;
     display: flex;
 }
@@ -33,6 +33,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 3em;
+    padding: 50px 70px 50px 70px;
 }
 
 .sec1left {
@@ -41,16 +42,19 @@ body {
     max-width: 500px;
     gap: 15px;
     flex: 1;
+    margin-left: auto;
 }
 
 .awesome {
     font-size: 48px;
+    font-weight: bolder;
 }
 
 #heroimg {
     max-width: 600px;
     height: auto;
     flex: 1;
+    margin-right: auto;
 }
 
 /* Info Section CSS */
@@ -63,6 +67,7 @@ body {
     font-size: 36px;
     font-weight: bolder;
     margin-bottom: 30px;
+    color: #1f2937;
 }
 
 .container {
@@ -162,6 +167,7 @@ body {
     /* border: 2px solid red; */
     padding: 0;
     margin: 0;
+    font-family: Roboto;
 }
 
 /* test comment for commit */
