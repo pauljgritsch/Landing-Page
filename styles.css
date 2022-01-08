@@ -51,10 +51,12 @@ body {
 }
 
 #heroimg {
-    max-width: 600px;
+    max-width: 500px;
     height: auto;
     flex: 1;
     margin-right: auto;
+    opacity: 80%;
+    border-radius: 20px;
 }
 
 /* Info Section CSS */
