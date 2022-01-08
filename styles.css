@@ -2,8 +2,6 @@
 body {
     display: flex;
     flex-direction: column;
-
-    /* border: 3px solid red; */
 }
 
 /* Header CSS */
@@ -34,15 +32,15 @@ body {
 
     display: flex;
     justify-content: center;
-    gap: 2em;
-    padding: 4em;
+    gap: 3em;
 }
 
 .sec1left {
     display: flex;
     flex-direction: column;
-    max-width: 600px;
+    max-width: 500px;
     gap: 15px;
+    flex: 1;
 }
 
 .awesome {
@@ -52,7 +50,7 @@ body {
 #heroimg {
     max-width: 600px;
     height: auto;
-    flex: 0 1 auto;
+    flex: 1;
 }
 
 /* Info Section CSS */
@@ -161,7 +159,7 @@ body {
 }
 
 * {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     padding: 0;
     margin: 0;
 }
