@@ -21,7 +21,6 @@ body {
     gap: 1rem;
     width: 60%;
     max-width: 1440px;
-    height: 370px;
 }
 
 .headerbar {
@@ -55,7 +54,7 @@ body {
 .sec1left {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 40%;
     gap: 15px;
 }
 
@@ -65,7 +64,7 @@ body {
 }
 
 #heroimg {
-    max-width: 600px;
+    max-width: 60%;
     height: auto;
     opacity: 80%;
     border-radius: 25px;
@@ -79,7 +78,6 @@ body {
     align-items: center;
     text-align: center;
     padding: 50px;
-    height: 370px;
 }
 
 #sec2text {
@@ -115,7 +113,6 @@ body {
     color: #1f2937;
     display: flex;
     justify-content: center;
-    height: 370px;
     }
 
 .sec3text {
@@ -135,7 +132,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 370px;
 }
 
 .sec4container {
