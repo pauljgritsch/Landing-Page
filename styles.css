@@ -74,8 +74,11 @@ body {
 
 /* Info Section CSS */
 .sec2 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     text-align: center;
-    margin: 50px;
+    padding: 50px;
     height: 370px;
 }
 
@@ -90,6 +93,8 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    width: 55%;
+    max-width: 1300px;
 }
 
 .info{
@@ -187,5 +192,3 @@ body {
     margin: 0;
     font-family: Roboto;
 }
-
-/* test comment for commit */
