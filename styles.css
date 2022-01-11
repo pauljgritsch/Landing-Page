@@ -62,6 +62,7 @@
     height: auto;
     opacity: 80%;
     border-radius: 25px;
+    object-fit: scale-down;
 }
 
 
